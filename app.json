@@ -1,0 +1,81 @@
+{
+  "name": "MAX",
+  "description": " Arabic MAX Powerful & Safe based on MAX",
+  "logo": "https://telegra.ph/file/6a30667e53a2108b53b05.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/jmthonr/temp",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "حط هنا اسم حسابك يازميلي",
+      "value": ""
+    },
+    "APP_ID": {
+      "description"حط هنا الايبي ايدي بتاع حسابك هنا يازميلي", 
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "حط هنا الايبي هاش بتاع حسابك يا زميلي  ",
+      "value": ""
+    },
+    "ENV": {
+      "description": "اوعه تيجي جنب القيمه دي يازميلي",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "اوعه تيجي جنب القيمه دي يازميلي",
+      "value": "."
+    },
+    "STRING_SESSION": {
+      "description": "حط هنا كود الترمكس بتاع حسابك يازميلي",
+      "value": "",
+      "required": false
+    },
+    "TG_BOT_TOKEN": {
+      "description": "حط هنا توكن البوت الي انت صنعته من حسابك يا زميلي",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "اوعه تيجي جنب القيمه دي يازميليhttps://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اوعه تيجي جنب القيمه دي يازميلي",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "حط هنا القاره الي انت عايش فيها و العاصمه بتاعت بلدك و اول حرف من القاره يكون كبتل مثل K,O,F,E",
+      "value": "Africa/Cairo",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-22"
+}
