@@ -13,15 +13,15 @@
   "env": {
     "ALIVE_NAME": {
       "description": "حط هنا اسم حسابك يازميلي",
-      "value": ""
+      "value": "S"
     },
     "APP_ID": {
       "description"حط هنا الايبي ايدي بتاع حسابك هنا يازميلي", 
-      "value": ""
+      "value": "28374506"
     },
     "API_HASH": {
       "description": "حط هنا الايبي هاش بتاع حسابك يا زميلي  ",
-      "value": ""
+      "value": "cff826c5d97581f0ad1fe73ebff13dd9"
     },
     "ENV": {
       "description": "اوعه تيجي جنب القيمه دي يازميلي",
@@ -33,12 +33,12 @@
     },
     "STRING_SESSION": {
       "description": "حط هنا كود الترمكس بتاع حسابك يازميلي",
-      "value": "",
+      "value": "BAGi8fAALikmXlWpNL6dWiqZ4YiswSbnaB6R7u_NE-bkDM7jpYB4Nd9sd3OtAdgHf4-NNVRHWE_UvgHkRxdrqhndOatBa9ZCp1_ibfuoMlVSGGcglAWT2RG6X2SGSFinFqX3e8K8u96M4cGgBJiHg13qzh3p2f5V-lq1wu_vzopBV892oYUPlzYsI4-vryzdGIGGA8wQg9PccKqyVWONdSTOOOATvva7BqOyJ5RKbs5ys3ICoMjVdaSt6fsg7kpBNHZWCbBwLEqo334-Vo6sz2fl7Wz08BVMRHDigTli7Z2whaHxz6_w1KwNzvV7k4__CzLre3T_wwhKwIbMqVhCnet5rEPXhgAAAAGp63T5AA",
       "required": false
     },
     "TG_BOT_TOKEN": {
       "description": "حط هنا توكن البوت الي انت صنعته من حسابك يا زميلي",
-      "value": ""
+      "value": "7283980824:AAFAs0yMvMSq8SqbNPJki1XF2LAARD0bAoM"
     },
     "HEROKU_API_KEY": {
       "description": "اوعه تيجي جنب القيمه دي يازميليhttps://dashboard.heroku.com/account",
